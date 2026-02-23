@@ -1,0 +1,78 @@
+body {
+    background-color: aliceblue;
+}
+.navbar {
+    background-color: #e3d2fd;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 100px;
+
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: hotpink;
+    text-decoration: underline
+}
+
+.meu-botao {
+
+    padding: 10px 20px;
+    background-color: plum;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    user-select: none;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.meu-botao:hover {
+    background-color: #0056b3;
+}
+
+.meu-botao:active {
+    transform: translateY(1px);
+}
+
+.oi {
+    padding: 100px;
+
+}
+
+.card-group {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 200px;
+    padding: 50px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+.textlado {
+
+        display: flex;
+        height: 200px;
+        width: 400px;
+        align-items: flex-end;
+    }
+
+}

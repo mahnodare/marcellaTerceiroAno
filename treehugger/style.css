@@ -1,0 +1,9 @@
+body {
+    background-color: aliceblue;
+}
+.navbar {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px;  }
